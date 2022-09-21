@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(../img/fondos.png);
+    background-attachment: fixed;
+}
+
+h1{
+    color: rgb(124, 10, 10);
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+section p{
+    color: rgb(31, 1, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+main h2{
+    color: rgb(95, 4, 4);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+#prod section figure{
+    color: rgb(124, 10, 10);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem; 
+    text-align: center;  
+}
+#prod section figure img{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+#prod section figure figcaption{
+    background-color: rgb(252, 229, 229);
+    padding: 10px 0;    
+}
+#prod section{
+    display: flex;
+}
+section ul li{
+    color: rgb(31, 1, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+section article ul li{
+    color: rgb(31, 1, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+nav{
+    background-color: rgba(192, 122, 122, .2);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+nav ul li a{
+    color: rgb(31, 1, 1);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+section form{
+    color: rgb(31, 1, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;    
+}
+
+.nos__historia{
+    width: 70%;
+    height: auto;
+    margin: 50px auto;
+    padding: 10px;
+    border-bottom: dotted rgb(95, 4, 4);
+} 
+
+.nos__foto{
+    width: auto;
+    height: auto;
+    margin: 50px 80px;
+    padding: 10px;
+    border-bottom: dotted rgb(95, 4, 4);
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+#novedades video{
+    width: 20%;
+    height: auto;
+    margin: 10px 10px;
+    padding: 10px;
+    border-bottom: dotted rgb(95, 4, 4);
+}
+#novedades div{
+    width: 30%;
+    height: auto;
+    margin: 10px 20px;
+    padding: 10px;
+}
