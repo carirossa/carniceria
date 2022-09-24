@@ -62,7 +62,7 @@ section article ul li{
     font-size: 1.5rem;
 }
 
-nav{
+#botonera{
     background-color: rgba(192, 122, 122, .2);
     padding: 10px 20px;
     display: flex;
@@ -70,16 +70,18 @@ nav{
     align-items: center;
 }
 
-nav ul{
-    list-style: none;
-    display: flex;
+#botonera ul{
+    list-style: none;   
     
 }
-nav ul li a{
+#botonera ul li a{
     color: rgb(31, 1, 1);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
+}   
+#botonera svg{
+    fill: rgb(95, 4, 4);
 }
 
 section form{
@@ -104,8 +106,8 @@ section form{
     border-bottom: dotted rgb(95, 4, 4);
 } 
 
-.nos__foto{
-    width: auto;
+.nos_foto{
+    width: 500px;
     height: auto;
     margin: 50px 80px;
     padding: 10px;
