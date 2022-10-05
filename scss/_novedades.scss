@@ -1,0 +1,21 @@
+#novedades{
+    article{
+        display: flex;
+        justify-content: center;
+        video{
+            width: 50%;
+            height: auto;
+            margin-top: 20px;
+            padding: 10px;
+            border-bottom: dotted $tercColor;
+        }
+        div{
+            width: 30%;
+            height: auto;
+            margin-top: 30px;
+        }
+    }
+    
+}
+
+

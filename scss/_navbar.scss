@@ -1,0 +1,15 @@
+#botonera{
+    background-color: $mainColor;
+    ul{
+        list-style: none;
+        li a{
+            color: $cuaColor;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-size: $textL;
+          }
+        }
+    svg{
+        fill: $tercColor;
+        }
+    }

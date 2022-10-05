@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(../img/fondos.png);
+    background-attachment: fixed;
+}
+
+h1{
+    color: $segColor;
+    font-family: 'Roboto', sans-serif;
+    font-size: $textG;
+    font-weight: 700;
+}
+
+h2{
+    color: $tercColor;
+    font-family: 'Roboto', sans-serif;
+    font-size: $textLg;
+    text-align: center;
+}
+@media (max-width: 768px){
+    h1{
+        font-size: $textLg;
+        font-weight: 600;  
+    }
+    h2{
+        font-size: $textMd;
+    }
+ }
+footer{
+    display: flex;
+    justify-content: center;
+    img{
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,28 @@
+section{
+    .nos_foto{
+        width: 80%;
+        height: auto;
+        margin: 20px 100px;
+        padding: 10px;
+        border-bottom: dotted $tercColor;
+    }
+    .nos__historia{
+        width: 70%;
+        height: auto;
+        margin: 50px auto;
+        padding: 10px;
+        border-bottom: dotted $tercColor;
+    }
+    p{
+        color: $cuaColor;
+        font-family: 'Roboto', sans-serif;
+        font-size: $textSm;
+        line-height: 2rem;
+    }
+        
+}
+
+
+
+
+

@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/fondos.png);
+  background-attachment: fixed;
+}
+
+h1 {
+  color: rgb(124, 10, 10);
+  font-family: "Roboto", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: rgb(95, 4, 4);
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer img {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#botonera {
+  background-color: rgba(192, 122, 122, 0.2);
+}
+#botonera ul {
+  list-style: none;
+}
+#botonera ul li a {
+  color: rgb(31, 1, 1);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+#botonera svg {
+  fill: rgb(95, 4, 4);
+}
+
+section .nos_foto {
+  width: 80%;
+  height: auto;
+  margin: 20px 100px;
+  padding: 10px;
+  border-bottom: dotted rgb(95, 4, 4);
+}
+section .nos__historia {
+  width: 70%;
+  height: auto;
+  margin: 50px auto;
+  padding: 10px;
+  border-bottom: dotted rgb(95, 4, 4);
+}
+section p {
+  color: rgb(31, 1, 1);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.foto1 {
+  grid-area: foto1;
+}
+
+.foto2 {
+  grid-area: foto2;
+}
+
+.foto3 {
+  grid-area: foto3;
+}
+
+.foto4 {
+  grid-area: foto4;
+}
+
+.foto5 {
+  grid-area: foto5;
+}
+
+.foto6 {
+  grid-area: foto6;
+}
+
+.foto7 {
+  grid-area: foto7;
+}
+
+.foto8 {
+  grid-area: foto8;
+}
+
+#prod {
+  display: flex;
+  flex-direction: column;
+}
+#prod section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 300px);
+  grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5" "foto6" "foto7" "foto8";
+}
+#prod section img {
+  width: 95%;
+  height: 95%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  #prod section {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 300px);
+    grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8";
+  }
+}
+@media (min-width: 1200px) {
+  #prod section {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    grid-template-areas: "foto1 foto2 foto3 foto4" "foto5 foto6 foto7 foto8";
+  }
+}
+#novedades article {
+  display: flex;
+  justify-content: center;
+}
+#novedades article video {
+  width: 50%;
+  height: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border-bottom: dotted rgb(95, 4, 4);
+}
+#novedades article div {
+  width: 30%;
+  height: auto;
+  margin-top: 30px;
+}
+
+#promo {
+  color: rgb(31, 1, 1);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+}
+
+main form {
+  color: rgb(31, 1, 1);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  width: 95%;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  border: 10px;
+}
+main iframe {
+  width: 95%;
+  height: auto;
+}/*# sourceMappingURL=main.css.map */

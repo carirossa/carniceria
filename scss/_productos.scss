@@ -1,0 +1,72 @@
+.foto1{
+    grid-area: foto1;
+}
+.foto2{
+    grid-area: foto2;
+}
+.foto3{
+    grid-area: foto3;
+}
+.foto4{
+    grid-area: foto4;
+}
+.foto5{
+    grid-area: foto5;
+}
+.foto6{
+    grid-area: foto6;
+}
+.foto7{
+    grid-area: foto7;
+}
+.foto8{
+    grid-area: foto8;
+}
+#prod{
+    display: flex;
+    flex-direction: column;
+    section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 300px);
+        grid-template-areas: 
+        "foto1"
+        "foto2"
+        "foto3"
+        "foto4"
+        "foto5"
+        "foto6"
+        "foto7"
+        "foto8";
+        img{
+            width: 95%;
+            height: 95%;
+            object-fit: cover;
+        }
+    }
+}
+
+@media (min-width: 768px){
+    #prod{
+        section{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,300px);
+        grid-template-areas:
+        "foto1 foto2"
+        "foto3 foto4"
+        "foto5 foto6"
+        "foto7 foto8";
+            }
+        }
+ }
+ @media (min-width: 1200px){
+    #prod{
+        section{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,300px);
+        grid-template-areas:
+        "foto1 foto2 foto3 foto4"
+        "foto5 foto6 foto7 foto8";
+            }
+        }
+ }
