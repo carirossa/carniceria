@@ -1,15 +1,18 @@
-section{
-    .nos_foto{
-        width: 80%;
+main{
+     .nos_foto{
+        width: 90%;
         height: auto;
-        margin: 20px 100px;
+        margin: 20px auto;
         padding: 10px;
         border-bottom: dotted $tercColor;
-    }
+            .carousel-inner{
+                margin: 5px 40%;
+            }
+       }
     .nos__historia{
-        width: 70%;
+        width: 90%;
         height: auto;
-        margin: 50px auto;
+        margin: 20px auto;
         padding: 10px;
         border-bottom: dotted $tercColor;
     }
@@ -18,11 +21,8 @@ section{
         font-family: 'Roboto', sans-serif;
         font-size: $textSm;
         line-height: 2rem;
-    }
-        
+    }   
 }
-
-
 
 
 
